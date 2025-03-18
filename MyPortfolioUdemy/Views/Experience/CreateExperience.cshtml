@@ -1,0 +1,52 @@
+﻿@model Experience
+@{
+    ViewData["Title"] = "CreateExperience";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Deneyimler</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Deneyim Listesi</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							Deneyimler ile ilgili ekleme işlemlerini aşağıdaki panelden yapabilirsiniz.
+						</div>
+						<form method="post">
+							
+							<label>Firma Bilgisi</label>
+							<input type="text" placeholder="Firma adını giriniz" asp-for="Head" class="form-control" />
+						    <br />
+							<label>Çalışılan Pozisyon</label>
+							<input type="text" asp-for="Title"  placeholder="Çalıştığınız pozisyonu giriniz"class="form-control" />
+							<br/>
+
+							<label>Tarih Aralığı</label>
+							<input type="text" asp-for="Date" placeholder="Tarih aralığı giriniz" class="form-control" />
+							<br/>
+							<label>Açıklama</label>
+                            <textarea rows="4" placeholder="Bu deneyiminizden en az 500 karakterle bahsedin" class="form-control" asp-for="Description"><</textarea>
+
+							<br />
+							<button class="btn btn-primary">Deneyimi Ekle</button>
+							<a href="/Message/CancelUpdateExperience/" class="btn btn-dark">İptal Et</a>
+
+						</form>
+					   
+							</div>
+				</div>
+
+
+			</div>
+		</div>
+
+	</div>
+
+
+

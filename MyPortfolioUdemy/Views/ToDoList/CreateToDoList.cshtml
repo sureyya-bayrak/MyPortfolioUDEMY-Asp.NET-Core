@@ -1,0 +1,47 @@
+﻿@model MyPortfolioUdemy.DAL.Entities.ToDoList
+@{
+    ViewData["Title"] = "CreateToDoList";
+    Layout = "~/Views/Layout/Index.cshtml";
+}
+
+<div class="content">
+	<div class="container-fluid">
+		<h4 class="page-title">Yapılacaklar</h4>
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<div class="card-title">Yeni Yapılacak İşlem Ekleme Sayfası</div>
+					</div>
+					<div class="card-body">
+						<div class="card-sub">
+							Yapılacaklar ile ilgili ekleme işlemlerini aşağıdaki panelden yapabilirsiniz.
+						</div>
+						<form method="post">
+
+							<label>Başlık & İçerik</label>
+							<input type="text" placeholder="Başlık & içerik giriniz" asp-for="Title" class="form-control" />
+							<br />
+							<label>Tarih</label>
+							<input type="date" asp-for="Date" placeholder="Tarih giriniz(dd.mm.yyyy)" class="form-control" />
+							<br />
+
+							<label>Görsel Yolu</label>
+							<input type="text" asp-for="ImageUrl" placeholder="Görsel Yolu" class="form-control" />
+							<br />
+							
+							<br />
+							<button class="btn btn-primary">Yapılacak İşi Ekle</button>
+							<button class="btn btn-dark">İptal Et</button>
+
+						</form>
+
+					</div>
+				</div>
+
+
+			</div>
+		</div>
+
+	</div>
+
