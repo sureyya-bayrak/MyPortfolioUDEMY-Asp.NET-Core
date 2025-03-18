@@ -16,6 +16,10 @@ Firstly, I used a template for web UI. Folder structure was used the most part o
 This was a very nice training and project for me. I would like to thank Murat Yücedağ for providing us with such an opportunity. 
 
 
-
+SOME SCREENSHOTS OF THIS PROJECT  -----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ![Image](https://github.com/user-attachments/assets/09d0dfd1-8987-48d7-bbe1-d0812b57899d)
+![Image](https://github.com/user-attachments/assets/1e6a09b6-16a2-4ee5-9bcc-b83b71576889)
+
+![Image](https://github.com/user-attachments/assets/5d801427-ecb4-43c4-85c6-f0070f34334d)
+![Image](https://github.com/user-attachments/assets/2696ac2b-8cc3-46e7-84c5-47eceaad79d9)
